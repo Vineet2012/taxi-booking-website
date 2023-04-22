@@ -1,0 +1,116 @@
+.book-taxi-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-taxi-wrapper .heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 88px 0px 40px 0px;
+}
+
+.book-taxi-wrapper .all-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-taxi-wrapper .all-input-wrapper .name-number-date-time-wrapper {
+  display: flex;
+}
+
+.book-taxi-wrapper .all-input-wrapper .name-number-date-time-wrapper .name {
+  margin: 40px 20px 0px 20px;
+  margin-top: 8px;
+  width: 30%;
+}
+
+.book-taxi-wrapper
+  .all-input-wrapper
+  .name-number-date-time-wrapper
+  .date-time-wrapper {
+  display: flex;
+}
+
+.book-taxi-wrapper
+  .all-input-wrapper
+  .name-number-date-time-wrapper
+  .date-time-wrapper
+  .date {
+  margin: 0px 20px 0px 20px;
+}
+
+.book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper .pickup {
+  margin: 0px;
+}
+
+.book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper .drop {
+  margin-left: 20px;
+}
+
+.book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper .vehicle {
+  margin-left: 40px;
+}
+
+.book-taxi-wrapper .all-input-wrapper .textArea {
+  width: 80%;
+  height: 8vh;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .book-taxi-wrapper .all-input-wrapper .name-number-date-time-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-taxi-wrapper .heading {
+    font-size: 32px;
+    margin: 60px 0px 40px 0px;
+  }
+
+  .book-taxi-wrapper .all-input-wrapper .name-number-date-time-wrapper .name {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper .pickup {
+    margin-left: 32px;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper .vehicle {
+    margin-top: 20px;
+    margin-left: 32px;
+    width: 90%;
+  }
+
+  .book-taxi-wrapper .all-input-wrapper .pickup-drop-class-wrapper .drop {
+    margin-left: 32px;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .book-taxi-wrapper
+    .all-input-wrapper
+    .name-number-date-time-wrapper
+    .date-time-wrapper
+    .date {
+    margin-left: 32px;
+    width: 35%;
+  }
+}

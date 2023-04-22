@@ -1,0 +1,169 @@
+.services-wrapper {
+  background-color: #fdfdf8;
+}
+
+.services-wrapper .heading {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 56px 0px;
+  padding: 88px 0px 0px 0px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.services-wrapper .services-div-wrapper {
+  display: flex;
+  padding: 0px 40px 40px 40px;
+}
+
+.services-wrapper .services-div-wrapper .image {
+  width: 50%;
+}
+
+.services-wrapper .services-div-wrapper .text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-wrapper .services-div-wrapper .text-wrapper .head {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.services-wrapper .services-div-wrapper .text-wrapper .para {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.services-wrapper .services-div-wrapper .text-wrapper .para1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.services-wrapper .services-div-wrapper .button {
+  width: 50%;
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 14px;
+  border: 0;
+  background-color: #282460;
+  color: white;
+  border-radius: 8px;
+}
+
+.services-wrapper .services-best-div-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px 40px 40px;
+}
+
+.services-wrapper .services-best-div-wrapper .butt-text-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.services-wrapper .services-best-div-wrapper .butt-text-wrapper .text {
+  font-size: 56px;
+  font-weight: 600;
+  color: #fdb827;
+}
+
+.services-wrapper .services-best-div-wrapper .butt-text-wrapper .button-best {
+  width: 16%;
+  height: 8vh;
+  font-size: 20px;
+  border: none;
+  background-color: #fdb827;
+  color: white;
+  font-weight: 600;
+  margin: 16px 0px 0px 40px;
+  border-radius: 8px;
+}
+
+.services-wrapper .services-best-div-wrapper .head-best {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.services-wrapper .services-best-div-wrapper .para-best {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.services-wrapper .services-best-div-wrapper .tag-best {
+  font-size: 160px;
+  font-weight: 700;
+  opacity: 0.1;
+  margin: 8% 0px 0px 16%;
+  position: absolute;
+}
+
+.services-wrapper .services-best-div-wrapper .image-best {
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .services-wrapper .services-div-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services-wrapper .heading {
+    font-size: 32px;
+    padding: 60px 0px 0px 0px;
+  }
+
+  .services-wrapper .services-div-wrapper .image {
+    margin-top: 24px;
+    width: 100%;
+  }
+
+  .services-wrapper .services-div-wrapper .text-wrapper .head {
+    font-size: 32px;
+  }
+
+  .services-wrapper .services-div-wrapper .text-wrapper .para {
+    font-size: 14px;
+  }
+
+  .services-wrapper .services-div-wrapper .text-wrapper .para1 {
+    font-size: 14px;
+  }
+
+  .services-wrapper .services-div-wrapper .button {
+    width: 60%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .services-wrapper .services-best-div-wrapper .head-best {
+    font-size: 32px;
+  }
+
+  .services-wrapper .services-best-div-wrapper .para-best {
+    font-size: 14px;
+  }
+
+  .services-wrapper .services-best-div-wrapper .tag-best {
+    font-size: 50px;
+    margin: 16% 0px 0px 12%;
+  }
+
+  .services-wrapper .services-best-div-wrapper .butt-text-wrapper .text {
+    font-size: 24px;
+  }
+
+  .services-wrapper .services-best-div-wrapper .butt-text-wrapper .button-best {
+    width: 32%;
+    height: 8vh;
+    font-size: 14px;
+    border: none;
+    background-color: #fdb827;
+    color: white;
+    font-weight: 600;
+    margin: 0px 0px 0px 40px;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,30 @@
+.benifits-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+}
+
+.benifits-wrapper .head {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 88px 0px 40px 0px;
+}
+
+.benifits-wrapper .para {
+  margin: 0px 40px 60px 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+  .benifits-wrapper .head {
+    font-size: 32px;
+    margin: 60px 0px 40px 0px;
+  }
+
+  .benifits-wrapper .para {
+    font-size: 14px;
+  }
+}
